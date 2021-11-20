@@ -1,0 +1,40 @@
+body{
+    margin: 0px;
+}
+.menu{
+    background-color: black;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu:hover{
+    background-color: #242222;
+}
+.logo{
+    height: 50px;
+    justify-self: left;
+}
+span{
+    color: gray;
+    font-size: 40px;
+}
+.elements{
+    display: flex;
+    justify-content: space-around;
+}
+.elements>div{
+    margin:7px;
+}
+.phone:hover,
+div.elements>div:hover{
+    background-color: darkgray;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.img{
+    background-image: url("./logo_white.png");
+    height: 50px;
+    width: 42px;
+    padding: 0px;
+}
